@@ -26,7 +26,7 @@
 # echo "No such container"
 # fi
 
-sudo docker build -t apitest01 .
+#sudo docker build -t apitest01 .
 
 echo "built docker images and proceeding to delete existing container"
 
