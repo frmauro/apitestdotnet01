@@ -26,6 +26,8 @@
 # echo "No such container"
 # fi
 
+sudo cp /home/francisco/estudos/azuredevops/dotnet/apitest01/DockerFile  /home/francisco/estudos/azuredevops/myagent/_work/_temp/
+
 #sudo docker build -t apitest01 .
 
 echo "built docker images and proceeding to delete existing container"
