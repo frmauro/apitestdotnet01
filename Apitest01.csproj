@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <Content Update="deploytst.sh" CopyToPublishDirectory="Never" />
+    <Content Update="Dockerfile" CopyToPublishDirectory="Never" />
   </ItemGroup>
 
 </Project>
