@@ -34,6 +34,6 @@ echo "built docker images and proceeding to delete existing container"
 
 echo "Deploying the updated container"
 
-#sudo docker run -d -p 5272:5272 --name apitest01  apitest01
+docker run -d -p 5272:5272 --name apitest01  apitest01
 
 echo "Deploying the container"
