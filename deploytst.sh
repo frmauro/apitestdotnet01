@@ -28,7 +28,7 @@
 
 #sudo cp /home/francisco/estudos/azuredevops/dotnet/apitest01/DockerFile  /home/francisco/estudos/azuredevops/myagent/_work/_temp/DockerFile
 
-sudo docker build -t apitest01 .
+docker build -t apitest01 .
 
 echo "built docker images and proceeding to delete existing container"
 
