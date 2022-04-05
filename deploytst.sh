@@ -26,7 +26,7 @@
 # echo "No such container"
 # fi
 
-#sudo cp /home/francisco/estudos/azuredevops/dotnet/apitest01/DockerFile  /home/francisco/estudos/azuredevops/myagent/_work/_temp/DockerFile
+cp -a /home/francisco/estudos/azuredevops/myagent/_work/1/s/.  /home/francisco/estudos/azuredevops/myagent/_work/r1/a/
 
 docker build -t apitest01 .
 
